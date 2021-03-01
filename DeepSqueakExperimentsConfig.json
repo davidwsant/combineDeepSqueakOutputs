@@ -1,0 +1,14 @@
+// This config file contains info about the day of each treatment, the type of treatment and the path to the files for each date
+// The info about ethanol or air is present in the file names and will be obtained using Regex
+[{'Feb2': {
+	'mstim_treatment': 'No_MSTIM',
+	'long_files_path': 'DeepSqueak Exported Excel Files/Long Rat Call Network/Feb 2/',
+	'short_files_path': 'DeepSqueak Exported Excel Files/Short Rat Call Network/Feb 2/'
+	}
+},
+{'Feb5': {
+	'mstim_treatment': '80Hz',
+	'long_files_path': 'DeepSqueak Exported Excel Files/Long Rat Call Network/Feb 5/',
+	'short_files_path': 'DeepSqueak Exported Excel Files/Short Rat Call Network/Feb 5/'
+	}
+}]
