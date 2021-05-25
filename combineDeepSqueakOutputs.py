@@ -149,9 +149,9 @@ for animal in  files_information:
 				for begin, end in zip(short_df['Begin Time (s)'], short_df['End Time (s)']):
 					unique = True
 					for entry_tuple in long_tuples:
-						if begin >= entry_tuple[0] and begin <= entry_tuple[0]:
+						if begin >= entry_tuple[0] and begin <= entry_tuple[1]:
 							unique = False
-						if end >= entry_tuple[0] and begin <= entry_tuple[0]:
+						if end >= entry_tuple[0] and begin <= entry_tuple[1]:
 							unique = False
 					short_unique.append(unique)
 				short_df['Unique'] = short_unique
